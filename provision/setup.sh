@@ -1,6 +1,7 @@
 sudo apt-get -y update
 sudo apt-get -y install git bash
-cd wikilegis
 sudo apt-get install -y python-pip
-sudo pip install -r ../requirements.txt
-echo depois do requirements
+git clone https://github.com/labhackercd/wikilegis.git
+cd wikilegis
+sudo pip install -r requirements.txt
+echo Installing. Please wait some minutes!
